@@ -1,15 +1,14 @@
 ## beeep
 `beeep` provides a cross-platform library for sending desktop notifications, alerts and beeps.
 
-### Forked from
-[gen2brain/beeep](https://github.com/gen2brain/beeep)
+### Forked from [gen2brain/beeep](https://github.com/gen2brain/beeep)
 Modification : 
 - Windows AppID customization. (PowerShell by default)
 
 ### Installation
 
     go get -u github.com/Kazh-Meziant/beeep
-
+If you don't need to change Windows AppID, you should use [gen2brain/beeep](https://github.com/gen2brain/beeep)
 ### Build tags
 
 * `nodbus` - disable `godbus/dbus` and use only `notify-send`
